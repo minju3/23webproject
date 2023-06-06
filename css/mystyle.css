@@ -7,8 +7,9 @@ ul {
      overflow: visible; 은 오버클로우되는 콘텐츠를 잘라내지 않고 
      영역 범위 밖까지 콘텐츠를 출력함
      overflow: hidden은 오버클로우되는 콘텐츠를 잘라냄. */
-  background-color: #333;
+  background-color: #ffffff;
   position: sticky;
+  text-align: center;
   top:0px;
   /* position: sticky는 미리 정의한 위치에 도달하기 전에는 
                다른 요소와 함께 스크롤 됨
@@ -43,13 +44,13 @@ li a, .dropbtn {
      하지만 display: block 요소처럼 줄바꿈은 발생하지 않음.   
   */
   padding: 14px 16px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(244, 238, 216);
 }
 /*     
 li.dropdown {
@@ -81,7 +82,7 @@ li.dropdown {
   */
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
             /* 요소에 테두리(border)를 그리는 대신에 
                카드 형태의 박스의 그림지 효과를 줌. 
                오른쪽(0px), 아래(8px),
@@ -109,7 +110,7 @@ li.dropdown {
      네이버
      처럼 줄을 바꾸면서 드롭다운 목록이 출력됨. 
   */
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
