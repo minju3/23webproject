@@ -10,23 +10,30 @@
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 60%;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     td, th {
       border: 1px solid #dddddd;
-      text-align: left;
+      text-align: center;
       padding: 8px;
     }
+
+    tr:hover {background-color:rgb(244, 238, 216);}
     
-    tr:nth-child(even) {
-      background-color: #dddddd;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
     }
   </style>
 </head>
 <body>
-  <div>
-    <img src="../image/bancat.jpg" alt="고양이" style="width: 100%;"/>
+  <div class = "center">
+    <img src="../image/sicat.png" alt="고양이" style="width: 10%;"/>
   </div>
     
   <ul>
@@ -44,43 +51,28 @@
     </li>
   </ul>
 
-  <h2>홍길동의 이력서</h2>
+  <h2>간식 종류</h2>
 
   <table>
     <tr>
-      <th><img src="../image/lde.jpg" alt="나의 사진"></th>
-      <th>Contact</th>
-      <th>Country</th>
+      <td><img src="../image/gansick1.webp" alt="츄르" style="width: 100%;"></td>
+      <td>츄르</td>
+      <td>Country</td>
     </tr>
     <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
+      <td><img src="../image/gansick2.jpg" alt="스낵형"></td>
+      <td>스낵형 간식</td>
       <td>Germany</td>
     </tr>
     <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
+      <td><img src="../image/gansick3.png" alt="동결건조"></td>
+      <td>동결건조</td>
       <td>Mexico</td>
     </tr>
     <tr>
-      <td>Ernst Handel</td>
-      <td>Roland Mendel</td>
+      <td><img src="../image/gansick4.jpg" alt="수제간식"></td>
+      <td>수제간식</td>
       <td>Austria</td>
-    </tr>
-    <tr>
-      <td>Island Trading</td>
-      <td>Helen Bennett</td>
-      <td>UK</td>
-    </tr>
-    <tr>
-      <td>Laughing Bacchus Winecellars</td>
-      <td>Yoshi Tannamuri</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <td>Magazzini Alimentari Riuniti</td>
-      <td>Giovanni Rovelli</td>
-      <td>Italy</td>
     </tr>
   </table>  
 </body>
