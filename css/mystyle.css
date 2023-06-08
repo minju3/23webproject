@@ -1,3 +1,6 @@
+/* *{
+  text-align: center;
+}*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -50,7 +53,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(244, 238, 216);
+  background-color: rgb(255, 255, 221);
 }
 /*     
 li.dropdown {
@@ -117,4 +120,11 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block; /* 마우스 오버시 드롭다운 메뉴가 보이도록 설정 */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
