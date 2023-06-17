@@ -14,6 +14,7 @@ ul {
   position: sticky;
   text-align: center;
   top:0px;
+  border-bottom: 1px solid #dddddd;
   /* position: sticky는 미리 정의한 위치에 도달하기 전에는 
                다른 요소와 함께 스크롤 됨
      위치를 정의하기 위해 left, right, top, bottom 속성 사용
