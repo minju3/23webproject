@@ -10,13 +10,13 @@
   <link rel="icon" type="image/x-icon" href="../image/wingcat.png">
   <link rel="stylesheet" href="../css/mystyle.css">
   <style>
-  aside {
+  /*aside {
   float: left;
   padding: 20px; 
   width: 50%;
   box-sizing: border-box;  /* only for demonstration, should be removed */
-}
-article {
+  /*}
+  article {
   float: left;
   padding: 20px;
   width: 50%;
@@ -26,8 +26,19 @@ article {
          box-sizing을 border-box 로 지정하면 **박스 크기 = 콘텐츠 크기+padding크기+border크기의 합**
          패딩의 크기를 포함한 article 영역의 전체 넓이를 70%로 맞추기 위해 border-box로 지정함 */
    /* only for demonstration, should be removed */
-}
-  
+  /*}*/
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 221);
+  }
+
+  .half {
+    width: 50%;
+    padding: 5px;
+  }
+
   </style>
 </head>
 <body>
@@ -64,7 +75,8 @@ article {
     <br>
   </div>
 
-  <aside style="background-color: rgb(255, 255, 221);"> 
+  <div class="container">
+    <div class="half">
     <img src="../image/lucy/a.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/c.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/e.jpg" alt="루시" style="width: 100%;"/>
@@ -72,10 +84,10 @@ article {
     <img src="../image/lucy/i.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/k.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/m.jpg" alt="루시" style="width: 100%;"/>
-    </iframe>
-  </aside>
+    
+    </div>
 
-  <article style="background-color: rgb(255, 255, 221);">
+    <div class="half">
     <img src="../image/lucy/b.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/d.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/f.jpg" alt="루시" style="width: 100%;"/>
@@ -83,7 +95,8 @@ article {
     <img src="../image/lucy/j.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/l.jpg" alt="루시" style="width: 100%;"/>
     <img src="../image/lucy/n.jpg" alt="루시" style="width: 100%;"/>
-  </article>
+  </div>
+</div>
   
 </body>
 </html>
